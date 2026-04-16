@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   const referenceDisplay = document.getElementById("referenceDisplay");
   const verifyStatus = document.getElementById("verifyStatus");
 
-  const API = 'http://localhost:3000';
+  const API = 'https://a-m-site-design.onrender.com';
 
   // Prevent running more than once
   if (sessionStorage.getItem("paymentVerified")) {
