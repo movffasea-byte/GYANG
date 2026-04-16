@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const successMessage = document.getElementById("successMessage");
   const confirmBtn = document.getElementById("confirmBtn");
 
-  const API = 'http://localhost:3000';
+  const API = 'https://a-m-site-design.onrender.com';
 
 //LOAD CART FROM STORAGE
   const cart = JSON.parse(localStorage.getItem("cart")) || [];
