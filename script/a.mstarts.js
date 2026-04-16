@@ -16,8 +16,8 @@ async function loadProducts() {
   try {
     // Fetch products and addons in parallel
     const [productsRes, addonsRes] = await Promise.all([
-      fetch('http://localhost:3000/products'),
-      fetch('http://localhost:3000/api/addons')
+      fetch('https://a-m-site-design.onrender.com'),
+      fetch('https://a-m-site-design.onrender.com')
     ]);
 
     const products = await productsRes.json();
