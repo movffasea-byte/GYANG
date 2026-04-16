@@ -1,4 +1,4 @@
-const API = 'http://localhost:3000';
+const API = 'https://a-m-site-design.onrender.com';
 const token = localStorage.getItem('token');
 
 // =====================
@@ -262,5 +262,5 @@ function showMsg(el, text, type) {
   setTimeout(() => {
     el.textContent = '';
     el.className = 'msg';
-  }, 4000);
+  }, 2000);
 }
